@@ -2,8 +2,8 @@
 %global priority 90
 
 Name:           vala
-Version:        0.56.17
-Release:        4%{?dist}
+Version:        0.56.18
+Release:        1%{?dist}
 Summary:        A modern programming language for GNOME
 
 # Most files are LGPLv2.1+, curses.vapi is 2-clause BSD
@@ -201,6 +201,10 @@ export -n VALAFLAGS
 
 
 %changelog
+* Mon Oct 20 2025 Felipe Borges <feborges@redhat.com> - 0.56.18-1
+- Update to 0.56.18
+  Resolves: RHEL-88019
+
 * Tue Oct 29 2024 Troy Dawson <tdawson@redhat.com> - 0.56.17-4
 - Bump release for October 2024 mass rebuild:
   Resolves: RHEL-64018
